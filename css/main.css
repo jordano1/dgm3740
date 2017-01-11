@@ -13,15 +13,11 @@
 body {
   font-family: Arial; }
 
-section.variable img {
-  float: left;
-  display: block;
-  width: 650px;
+section div img {
+  width: 100%;
   position: relative; }
 
 figure {
-  width: 29%;
-  float: right;
   margin: 1.1em 0 0 0; }
 
 figcaption {

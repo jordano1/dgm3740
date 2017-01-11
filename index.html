@@ -11,10 +11,16 @@
 	</head>
 	<body>
 		<div id="container">
-			<section class="slider variable">
-				<div><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=750%C3%97350&w=750&h=350"></div>
-				<div><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=750%C3%97350&w=750&h=350"></div>
-				<div><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=750%C3%97350&w=750&h=350"></div>
+			<section class="slider single-item">
+				<div>
+					<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=750%C3%97350&w=750&h=350">
+				</div>
+				<div>
+					<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=750%C3%97350&w=750&h=350">
+				</div>
+				<div>
+					<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=750%C3%97350&w=750&h=350">
+				</div>
 			</section>
 			<figcaption>asdfsd</figcaption>
 
@@ -53,10 +59,9 @@
 		});
 
 	    $(document).on('ready', function() {
-	      $(".variable").slick({
-	        infinite: true,
-	        variableWidth: true,
-	        arrows: false
+	      $(".single-item").slick({
+	      //   infinite: true,
+	         arrows: false
 	      });
 	    });
 	  </script>

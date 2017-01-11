@@ -12,10 +12,11 @@
 #container{ background-color: #EEEEEE; min-width: 320px; max-width: 960px; margin: 2em auto; border: 1px solid #888; box-shadow: 0 0 25px #000;}
 .active{ text-decoration:underline !important; }
 body{ font-family:Arial; }
-section.variable img{ float:left; display:block; width:650px; position:relative; }    
-figure{ width: 29%; float: right; margin: 1.1em 0 0 0;}
+section div img{width:100%; position:relative;}
+figure{  margin: 1.1em 0 0 0;}
 figcaption{text-align: center; font-size: .6em; color: #000000; padding: .3em;}
 .w100{width:100%;}
+
 
 
 @include breakpoint(desktop) {
