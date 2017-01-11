@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Jordan Olson">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="slick/slick.css">
+
+	</head>
+	<body>
+		<div id="container">
+			<section class="slider variable">
+				<div><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=750%C3%97350&w=750&h=350"></div>
+				<div><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=750%C3%97350&w=750&h=350"></div>
+				<div><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=750%C3%97350&w=750&h=350"></div>
+			</section>
+			<figcaption>asdfsd</figcaption>
+
+			<header>
+				<nav>
+					<button class="nav-button">menu</button>
+
+					<ul class="primary-nav">
+						<li><a class="active" href="#">Home</a></li>
+						<li class="parent"><a href="#">About</a>
+							<ul>
+								<li><a href="#">History</a></li>
+								<li><a href="#">News</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="clear"></div>
+			<p>Burgdoggen prosciutto boudin, beef pork loin pork chop porchetta biltong. Burgdoggen pork loin leberkas pork chop. Ham hock andouille hamburger ribeye chuck flank. Capicola kielbasa porchetta turducken chuck jerky bresaola, boudin cow short ribs. Ham frankfurter cow capicola. Kevin rump salami ground round pork pork loin tail ham bacon pancetta boudin.</p>
+			<p>Bacon jowl corned beef, jerky shank short ribs sirloin spare ribs tri-tip strip steak beef ribs burgdoggen salami. T-bone ham hock spare ribs boudin, shoulder bresaola short ribs tail rump jowl jerky pork belly chicken andouille ball tip. Prosciutto turducken chuck chicken meatloaf turkey fatback jerky. Strip steak short loin kielbasa t-bone. Picanha cow corned beef boudin, cupim t-bone shankle kielbasa ribeye fatback. Beef beef ribs sirloin tail drumstick.</p>
+
+			<div class="w33">Bacon jowl corned beef, jerky shank short ribs sirloin spare ribs tri-tip strip steak beef ribs burgdoggen salami. T-bone ham hock spare ribs boudin, shoulder bresaola short ribs tail rump jowl jerky pork belly chicken andouille ball tip. Prosciutto turducken chuck chicken meatloaf turkey fatback jerky. Strip steak short loin kielbasa t-bone. Picanha cow corned beef boudin, cupim t-bone shankle kielbasa ribeye fatback. Beef beef ribs sirloin tail drumstick.</div>
+			<div class="w33">Bacon jowl corned beef, jerky shank short ribs sirloin spare ribs tri-tip strip steak beef ribs burgdoggen salami. T-bone ham hock spare ribs boudin, shoulder bresaola short ribs tail rump jowl jerky pork belly chicken andouille ball tip. Prosciutto turducken chuck chicken meatloaf turkey fatback jerky. Strip steak short loin kielbasa t-bone. Picanha cow corned beef boudin, cupim t-bone shankle kielbasa ribeye fatback. Beef beef ribs sirloin tail drumstick.</div>
+			<div class="w33">Bacon jowl corned beef, jerky shank short ribs sirloin spare ribs tri-tip strip steak beef ribs burgdoggen salami. T-bone ham hock spare ribs boudin, shoulder bresaola short ribs tail rump jowl jerky pork belly chicken andouille ball tip. Prosciutto turducken chuck chicken meatloaf turkey fatback jerky. Strip steak short loin kielbasa t-bone. Picanha cow corned beef boudin, cupim t-bone shankle kielbasa ribeye fatback. Beef beef ribs sirloin tail drumstick.</div>
+			<div class="clear"></div>
+		</div>
+  		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$(".nav-button").click(function () {
+			$(".nav-button,.primary-nav").toggleClass("open");
+			});    
+		});
+
+	    $(document).on('ready', function() {
+	      $(".variable").slick({
+	        infinite: true,
+	        variableWidth: true,
+	        arrows: false
+	      });
+	    });
+	  </script>
+	</body>
+</html>
